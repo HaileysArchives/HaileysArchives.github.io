@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="../assets/css/devicon.min.css">
-<html lang="en">
+<html>
+
   {% include head.html %}
-  <body>
-      {% include header.html %}
-      <section id="about">
-        {% include about.html %}
-      </section>
-        {{ content }}
-      {% include footer.html %}
-  </body>
+
+  <head>
+    <!-- CSS for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  </head>
+
+
+    <body id="page-top" class="index">
+
+    {% include header.html %}
+    {% include services.html %}
+    {% include portfolio_grid.html %}
+    {% include about.html %}
+    {% include contact.html %}
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+
+    </body>
 </html>
