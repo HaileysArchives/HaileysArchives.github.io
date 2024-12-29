@@ -1,15 +1,26 @@
 ---
 title: 2차 전지 공정 데이터 분석 프로젝트
-subtitle: Data analytics
+subtitle: Data Analytics
 layout: default
 modal-id: 6
 date: 2024-03-22
 img: rechargeable_battery.png
 thumbnail: rechargeable_battery.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: March 2024
+category: Data Analytics
+description: |
+  description: |
+  <div class="project-description">
+    <p><strong>Description:</strong> 이차전지 제조공정 데이터를 분석하여 불량률 저감 방안을 도출</p>
+    <p><strong>My Role</strong></p>
+    <ul>
+      <li>카이제곱검정을 활용한 가설 검정으로 데이터 간 유의미한 관계 분석</li>
+      <li>이상치를 제거하여 정제된 데이터셋 준비</li>
+      <li>제조 공정을 이해하기 위해 논문을 검토하고 개선안을 확립</li>
+      <li>팀원과의 협업을 통해 데이터 내 숨겨진 관계를 도출</li>
+    </ul>
+    <p><strong>GitHub Repository:</strong> <a href="https://github.com/HaileysArchives/portfolio_code/tree/main/C2_%EC%9D%B4%EC%B0%A8%EC%A0%84%EC%A7%80" target="_blank">GitHub Link</a></p>
+  </div>
 
 ---

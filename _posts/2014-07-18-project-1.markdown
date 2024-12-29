@@ -8,8 +8,7 @@ img: medical_llm.png
 thumbnail: medical_llm.png
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: LangChain과 Chroma를 활용해 한국 의료법 정보를 검색하고 답변을 제공하는 RAG 기반 챗봇 프로젝트로, RAG 기술과 LLM을 결합해 효율적이고 확장 가능한 검색 시스템 구현 시도 
 
 ---

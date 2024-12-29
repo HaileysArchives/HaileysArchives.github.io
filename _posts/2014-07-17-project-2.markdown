@@ -8,8 +8,7 @@ img: aladin_book.png
 thumbnail: aladin_book.png
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: AI와 Computer Vision 기술을 활용해 중고서적의 상태를 자동으로 평가하고, 알라딘의 중고서적 매입 시스템 효율성을 개선하는 프로젝트
 
 ---

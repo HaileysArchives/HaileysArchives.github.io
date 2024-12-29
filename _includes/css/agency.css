@@ -451,6 +451,20 @@ section h3.section-subheading {
     margin: 0;
 }
 
+#portfolio .portfolio-item {
+    margin-bottom: 30px;
+}
+
+#portfolio .portfolio-item img {
+    object-fit: cover; /* 이미지 비율 유지하며 크기 조정 */
+}
+
+#portfolio .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* 아이템 간의 균일한 간격 */
+}
+
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;

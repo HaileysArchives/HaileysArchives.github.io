@@ -1,15 +1,14 @@
 ---
 title: 중고차 가격 데이터 분석 프로젝트
-subtitle: Data analytics
+subtitle: Data Analytics
 layout: default
 modal-id: 5
 date: 2024-03-08
 img: used_car.png
 thumbnail: used_car.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: March 2024
+category: Data Analytics
+description: 자동차 브랜드, 위치, 연료 유형 등 다양한 설명변수의 파생변수를 생성하여 탐색적 분석 및 통계적 검정을 수행한 후, 최적의 예측 모델 선정
 
 ---

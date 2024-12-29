@@ -1,6 +1,6 @@
 ---
 title: 후판공정 데이터 분석 프로젝트
-subtitle: Data analytics
+subtitle: Data Analytics
 layout: default
 modal-id: 4
 date: 2024-03-15
@@ -8,8 +8,7 @@ img: process.png
 thumbnail: process.png
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: 후판공정 데이터를 분석하여 품질 개선 및 불량률 저감
 
 ---
