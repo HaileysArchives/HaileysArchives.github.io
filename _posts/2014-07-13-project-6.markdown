@@ -4,8 +4,8 @@ subtitle: Data analytics
 layout: default
 modal-id: 6
 date: 2024-03-22
-img: rechar
-thumbnail: roundicons-thumbnail.png
+img: rechargeable_battery.png
+thumbnail: rechargeable_battery.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
