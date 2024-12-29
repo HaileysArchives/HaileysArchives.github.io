@@ -9,6 +9,19 @@ thumbnail: process.png
 alt: image-alt
 project-date: April 2014
 category: Web Development
-description: 후판공정 데이터를 분석하여 품질 개선 및 불량률 저감
+description: |
+  <div class="project-description">
+    <p><strong>Description:</strong> 후판공정 데이터를 분석하여 품질 개선 및 불량률 저감을 목표로 함</p>
+    <p><strong>My Role</strong></p>
+
+    <ul>
+      <li>데이터셋을 학습/테스트 세트로 분리 후 모델링 및 파라미터 튜닝 수행</li>
+      <li>의사결정나무와 랜덤포레스트를 활용해 최적의 예측 모델 개발</li>
+      <li>나라별 및 압연 방식에 따른 가설 검정 수행</li>
+    </ul>
+
+    <p><strong>GitHub Repository:</strong> <a href="https://github.com/HaileysArchives/portfolio_code/tree/main/C2_%ED%9B%84%ED%8C%90%EA%B3%B5%EC%A0%95" target="_blank">GitHub Link</a></p>
+  </div>
+
 
 ---

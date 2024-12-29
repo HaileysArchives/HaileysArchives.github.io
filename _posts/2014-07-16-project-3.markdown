@@ -9,9 +9,31 @@ thumbnail: generative_ai_shoppingcart.png
 alt: image-alt
 project-date: April 2014
 category: Web Development
-description: 기존 카트를 기반으로 고객의 매출을 극대화할 수 있는 쇼핑카트 시스템을 구현
-  ∙ 실시간 AI 소통 가능
-  ∙ 제품 자동 인식 및 무게 감지 
-  ∙ 다중 사용자 동시 접속 통신 처리 
+description: |
+  <div class="project-description">
+    <p><strong>Description:</strong> 기존 카트를 기반으로 고객의 매출을 극대화할 수 있는 쇼핑카트 시스템을 구현</p>
+    <p><strong>My Role</strong></p>
+
+    <ul>
+      <li><strong>Google Cloud Vision OCR API 설정 및 인증</strong></li>
+      <ul>
+        <li>손글씨로 작성된 쇼핑 리스트를 모바일 카메라로 촬영하며, Google Cloud Vision OCR API가 텍스트를 읽고 해석</li>
+        <li>인식된 상품 정보는 마트 내 쇼핑카트 시스템과 연동되어 쇼핑 효율성을 향상</li>
+      </ul>
+      <li><strong>Android 애플리케이션 개발</strong></li>
+      <ul>
+        <li>Android Studio를 활용해 제품 선택 시 자동으로 위시리스트에 추가하는 기능 구현</li>
+        <li>Java 언어를 사용해 손글씨로 작성된 리스트를 디지털화하고, 사용자 편의를 위한 위시리스트 추가 및 마트 시스템과의 연동 기능 추가</li>
+      </ul>
+      <li><strong>OCR 기반 위치 추천 알고리즘 작성</strong></li>
+      <ul>
+        <li>OCR을 활용해 쇼핑카트의 위치 기반 추천 알고리즘 작성</li>
+        <li>Python과 Tesseract를 사용하여 텍스트 추출과 바닥의 구역 정보를 인식</li>
+        <li>네이버 CLOVA API와 Google Vision API 비교 후 최적의 API 선정</li>
+      </ul>
+    </ul>
+
+    <p><strong>GitHub Repository:</strong> <a href="https://github.com/HaileysArchives/portfolio_code/tree/main/C2_%EC%9D%B4%EC%B0%A8%EC%A0%84%EC%A7%80" target="_blank">GitHub Link</a></p>
+  </div>
 
 ---

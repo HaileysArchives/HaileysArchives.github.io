@@ -9,6 +9,30 @@ thumbnail: aladin_book.png
 alt: image-alt
 project-date: April 2014
 category: Web Development
-description: AI와 Computer Vision 기술을 활용해 중고서적의 상태를 자동으로 평가하고, 알라딘의 중고서적 매입 시스템 효율성을 개선하는 프로젝트
+description: |
+  <div class="project-description">
+    <p><strong>Description:</strong> AI와 Computer Vision 기술을 활용해 중고서적의 상태를 자동으로 평가하고, 알라딘의 중고서적 매입 시스템 효율성을 개선하는 프로젝트</p>
+    <p><strong>My Role</strong></p>
+
+    <ul>
+      <li><strong>데이터 수집 및 라벨링</strong></li>
+      <ul>
+        <li>각 300장 이상의 손상 도서 이미지를 직접 촬영하고 데이터셋 구축</li>
+        <li>Roboflow 플랫폼을 사용해 라벨링 클래스 세분화 작업 수행</li>
+      </ul>
+      <li><strong>이미지 전처리 및 데이터 증강</strong></li>
+      <ul>
+        <li>PyTorch를 활용해 다양한 이미지 전처리 기법 적용 및 실행</li>
+        <li>데이터 다양성 증대를 통해 YOLO 모델의 mAP 성능 개선</li>
+      </ul>
+      <li><strong>YOLO 모델 커스터마이징</strong></li>
+      <ul>
+        <li>손상 탐지 관련 논문 참고하여 YOLO 모델 커스터마이징</li>
+      </ul>
+    </ul>
+
+    <p><strong>GitHub Repository:</strong> <a href="https://github.com/HaileysArchives/ML_Project" target="_blank">GitHub Link</a></p>
+  </div>
+
 
 ---

@@ -9,6 +9,17 @@ thumbnail: medical_llm.png
 alt: image-alt
 project-date: April 2014
 category: Web Development
-description: LangChain과 Chroma를 활용해 한국 의료법 정보를 검색하고 답변을 제공하는 RAG 기반 챗봇 프로젝트로, RAG 기술과 LLM을 결합해 효율적이고 확장 가능한 검색 시스템 구현 시도 
+description: |
+  <div class="project-description">
+    <p><strong>Description:</strong> LangChain과 Chroma를 활용해 한국 의료법 정보를 검색하고 답변을 제공하는 RAG 기반 챗봇 프로젝트</p>
+    <p><strong>My Role</strong></p>
+
+    <ul>
+      <li>강의의 도움을 받아 처음부터 끝까지 직접 구현한 프로젝트</li>
+      <li>LangChain의 기초적인 개념과 사용법을 학습하여 프로젝트 설계 및 실행</li>
+    </ul>
+
+    <p><strong>GitHub Repository:</strong> <a href="https://github.com/HaileysArchives/medical_LLM" target="_blank">GitHub Link</a></p>
+  </div>
 
 ---

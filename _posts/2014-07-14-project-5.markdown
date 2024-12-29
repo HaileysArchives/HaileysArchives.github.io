@@ -9,6 +9,19 @@ thumbnail: used_car.png
 alt: image-alt
 project-date: March 2024
 category: Data Analytics
-description: 자동차 브랜드, 위치, 연료 유형 등 다양한 설명변수의 파생변수를 생성하여 탐색적 분석 및 통계적 검정을 수행한 후, 최적의 예측 모델 선정
+description: |
+  <div class="project-description">
+    <p><strong>Description:</strong> 자동차 브랜드, 위치, 연료 유형 등 다양한 설명변수의 파생변수를 생성하여 탐색적 분석 및 통계적 검정을 수행한 후, 최적의 예측 모델 선정</p>
+    <p><strong>My Role</strong></p>
+
+    <ul>
+      <li>자동차 브랜드를 고가/중가/저가로 재분류하여 중요한 설명변수로 활용</li>
+      <li>데이터를 기반으로 이상치를 탐지 및 제거해 데이터 정제</li>
+      <li>모델링 과정에서 Random Forest, XGBoost 등 다양한 모델을 비교 분석하여 최적의 모델 선정 지원</li>
+    </ul>
+
+    <p><strong>GitHub Repository:</strong> <a href="https://github.com/HaileysArchives/portfolio_code/tree/main/C2_%EC%9D%B4%EC%B0%A8%EC%A0%84%EC%A7%80" target="_blank">GitHub Link</a></p>
+  </div>
+
 
 ---
