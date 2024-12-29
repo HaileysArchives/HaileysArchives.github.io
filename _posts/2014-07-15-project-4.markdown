@@ -4,8 +4,8 @@ subtitle: Data analytics
 layout: default
 modal-id: 4
 date: 2024-03-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+img: process.png
+thumbnail: process.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

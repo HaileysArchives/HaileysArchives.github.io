@@ -4,7 +4,7 @@ subtitle: Data analytics
 layout: default
 modal-id: 5
 date: 2024-03-08
-img: startup-framework.png
+img: used_car.png
 thumbnail: used_car.png
 alt: image-alt
 project-date: April 2014

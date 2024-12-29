@@ -4,8 +4,8 @@ subtitle: LangChain
 layout: default
 modal-id: 1
 date: 2024-12-20
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: medical_llm.png
+thumbnail: medical_llm.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

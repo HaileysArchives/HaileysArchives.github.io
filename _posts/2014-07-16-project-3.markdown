@@ -4,8 +4,8 @@ subtitle: Generative AI
 layout: default
 modal-id: 3
 date: 2024-04-26
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: generative_ai_shoppingcart.png
+thumbnail: generative_ai_shoppingcart.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

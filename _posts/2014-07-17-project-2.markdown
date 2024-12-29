@@ -4,8 +4,8 @@ subtitle: Generative AI
 layout: default
 modal-id: 2
 date: 2024-10-22
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: aladin_book.png
+thumbnail: aladin_book.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
