@@ -1,30 +1,17 @@
-Agency Jekyll theme
-====================
+# My Portfolio Website
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+This is my personal portfolio website, showcasing my skills, projects, and achievements as a developer. The site is built using Jekyll and a customized version of the Agency theme.
 
-# How to use
+## 📂 Structure
 
-###Portfolio 
+### 🗂 Portfolio Projects
+- Portfolio projects are located in the `/_posts` folder.
+- Images for projects are in the `/img/portfolio` folder.
 
-Portfolio projects are in '/_posts'
+### 🖼 About Section
+- About section images are in the `/img/about/` folder.
 
-Images are in '/img/portfolio'
+## 🌐 How to View the Website
 
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+The website is live and accessible at:  
+👉 **[https://haileysarchives.github.io/](https://haileysarchives.github.io/)**
