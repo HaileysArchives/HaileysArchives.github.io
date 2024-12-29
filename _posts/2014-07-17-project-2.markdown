@@ -1,9 +1,9 @@
 ---
-title: Escape
-subtitle: Website Design
+title: 중고서적 판매를 위한 등급 분류 프로젝트
+subtitle: Generative AI
 layout: default
 modal-id: 2
-date: 2014-07-17
+date: 2024-10-22
 img: escape.png
 thumbnail: escape-thumbnail.png
 alt: image-alt

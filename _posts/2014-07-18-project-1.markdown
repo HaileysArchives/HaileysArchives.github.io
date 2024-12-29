@@ -1,9 +1,9 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: 의료법 검색 LLM-RAG 서비스 프로젝트
+subtitle: LangChain
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2024-12-20
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt

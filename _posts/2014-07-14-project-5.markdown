@@ -1,9 +1,9 @@
 ---
-title: Startup Framework
-subtitle: Website Design
+title: 중고차 가격 데이터 분석 프로젝트
+subtitle: Data analytics
 layout: default
 modal-id: 5
-date: 2014-07-14
+date: 2024-03-08
 img: startup-framework.png
 thumbnail: startup-framework-thumbnail.png
 alt: image-alt

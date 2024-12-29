@@ -1,9 +1,9 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: 후판공정 데이터 분석 프로젝트
+subtitle: Data analytics
 layout: default
 modal-id: 4
-date: 2014-07-15
+date: 2024-03-15
 img: treehouse.png
 thumbnail: treehouse-thumbnail.png
 alt: image-alt

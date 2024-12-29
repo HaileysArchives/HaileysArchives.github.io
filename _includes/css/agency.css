@@ -10,23 +10,54 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
-/* 아이콘 크기 조정 */
-.social-icons a i {
-    font-size: 48px; /* Contact Me 텍스트 크기와 비슷한 크기로 설정 */
-    color: #fff; /* 아이콘 색상을 흰색으로 유지 (필요하면 수정 가능) */
-    transition: all 0.3s ease; /* 부드러운 효과 */
+#my-skills h2.section-heading {
+    margin-bottom: 50px;
 }
 
-/* 아이콘 간격 조정 */
+#my-skills .icon-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #fbc02d; /* 노란색 배경 */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px auto;
+}
+
+#my-skills .icon-circle i {
+    font-size: 48px; /* 아이콘 크기 */
+    color: #fff; /* 아이콘 색상 */
+}
+
+#my-skills h4 {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* 아이콘 컨테이너 스타일 */
+.social-icons {
+    display: flex; /* 플렉스 박스를 사용하여 아이템 정렬 */
+    justify-content: center; /* 아이콘을 수평 가운데 정렬 */
+    gap: 20px; /* 아이콘 사이 간격 조정 */
+    margin-top: 20px; /* Contact Me 텍스트와의 간격 */
+}
+
+/* 아이콘 자체 스타일 */
 .social-icons a {
-    margin: 0 15px; /* 아이콘 간 간격 조정 */
+    text-decoration: none; /* 링크 밑줄 제거 */
+    color: #fff; /* 기본 색상 */
+    font-size: 48px; /* 아이콘 크기 */
+    transition: transform 0.3s ease, color 0.3s ease; /* 부드러운 효과 */
 }
 
-/* 호버 시 크기 조정 */
-.social-icons a:hover i {
-    transform: scale(1.2); /* 마우스 올렸을 때 크기 증가 */
-    color: #fbc02d; /* 호버 시 색상 변경 (원하는 색상으로 수정 가능) */
+/* 아이콘 호버 효과 */
+.social-icons a:hover {
+    transform: scale(1.2); /* 아이콘 크기 확대 */
+    color: #fbc02d; /* 호버 시 색상 변경 */
 }
+
 
 .text-muted {
     color: #{{ site.data.template.color.muted }};
@@ -194,7 +225,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -303,9 +334,9 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
-    font-style: italic;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 20px;
+    font-style: normal;
     line-height: 22px;
 }
 
@@ -326,9 +357,9 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
+        font-family: {{ site.data.template.font.primary }};
         font-size: 40px;
-        font-style: italic;
+        font-style: normal;
         line-height: 40px;
     }
 
