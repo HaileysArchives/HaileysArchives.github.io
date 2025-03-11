@@ -60,7 +60,7 @@ description: |
         <li>Google Gemini API</li>
         <li>Streamlit</li>
     </ul>
-</div>
+  </div>
 
 
     <p><strong>GitHub Repository:</strong> <a href="https://github.com/HaileysArchives/ML_Project" target="_blank">GitHub Link</a></p>
