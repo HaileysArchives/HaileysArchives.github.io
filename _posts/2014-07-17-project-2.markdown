@@ -12,24 +12,56 @@ category: Web Development
 description: |
   <div class="project-description">
     <p><strong>Description:</strong> AI와 Computer Vision 기술을 활용해 중고서적의 상태를 자동으로 평가하고, 알라딘의 중고서적 매입 시스템 효율성을 개선하는 프로젝트</p>
-    <p><strong>My Role</strong></p>
-
+    <p><strong>Project Goals:</strong></p>
     <ul>
-      <li><strong>데이터 수집 및 라벨링</strong></li>
-      <ul>
-        <li>각 300장 이상의 손상 도서 이미지를 직접 촬영하고 데이터셋 구축</li>
-        <li>Roboflow 플랫폼을 사용해 라벨링 클래스 세분화 작업 수행</li>
-      </ul>
-      <li><strong>이미지 전처리 및 데이터 증강</strong></li>
-      <ul>
-        <li>PyTorch를 활용해 다양한 이미지 전처리 기법 적용 및 실행</li>
-        <li>데이터 다양성 증대를 통해 YOLO 모델의 mAP 성능 개선</li>
-      </ul>
-      <li><strong>YOLO 모델 커스터마이징</strong></li>
-      <ul>
-        <li>손상 탐지 관련 논문 참고하여 YOLO 모델 커스터마이징</li>
-      </ul>
+        <li>알라딘 중고서적 매입 시스템 개선을 통한 사용자 경험 극대화 및 자동화된 서적 상태 평가 시스템 도입</li>
     </ul>
+    <p><strong>Key Activities:</strong></p>
+    <ul>
+        <li><strong>데이터 수집 및 라벨링</strong></li>
+        <ul>
+            <li>각 300장 이상의 손상 도서 이미지를 직접 촬영하고 데이터셋 구축</li>
+            <li>Roboflow 플랫폼을 사용해 라벨링 클래스 세분화 작업 수행</li>
+        </ul>
+        <li><strong>이미지 전처리 및 데이터 증강</strong></li>
+        <ul>
+            <li>PyTorch를 활용해 다양한 이미지 전처리 기법 적용 및 실행</li>
+            <li>데이터 다양성 증대를 통해 YOLO 모델의 mAP 성능 개선</li>
+        </ul>
+        <li><strong>YOLO 모델 커스터마이징</strong></li>
+        <ul>
+            <li>손상 탐지 관련 논문 참고하여 YOLO 모델 커스터마이징</li>
+        </ul>
+        <li><strong>모델 비교 및 성능 개선</strong></li>
+        <ul>
+            <li>Object Detection vs Instance Segmentation</li>
+            <li>라벨링 클래스 세분화 (5개 vs 9개)</li>
+            <li>Data Augmentation 적용 여부</li>
+            <li>YOLOv11 모델 크기 비교 (nano, small, large)</li>
+            <li>Faster R-CNN 및 Mask R-CNN 적용</li>
+        </ul>
+    </ul>
+    <p><strong>Main Results:</strong></p>
+    <ul>
+        <li>Instance Segmentation 모델이 Object Detection 모델보다 높은 mAP 기록</li>
+        <li>세분화된 라벨링을 통해 mAP 0.18% 향상</li>
+        <li>Data Augmentation 적용 시 mAP 0.03% 향상</li>
+        <li>YOLOv11 small 버전이 최적의 성능과 리소스 효율성 제공</li>
+        <li>Faster R-CNN 및 Mask R-CNN 적용 시 mAP가 상당히 향상되었으나, 처리 시간 증가로 실시간 서비스 적용 어려움</li>
+    </ul>
+    <p><strong>Tech Stack:</strong></p>
+    <ul>
+        <li>Python</li>
+        <li>PyTorch</li>
+        <li>Roboflow</li>
+        <li>YOLOv11</li>
+        <li>Faster R-CNN</li>
+        <li>Mask R-CNN</li>
+        <li>Google Gemini API</li>
+        <li>Streamlit</li>
+    </ul>
+</div>
+
 
     <p><strong>GitHub Repository:</strong> <a href="https://github.com/HaileysArchives/ML_Project" target="_blank">GitHub Link</a></p>
   </div>
