@@ -11,12 +11,14 @@ project-date: April 2014
 category: Web Development
 description: |
   <div class="project-description">
-    <p><strong>Description:</strong> AI와 Computer Vision 기술을 활용해 중고서적의 상태를 자동으로 평가하고, 알라딘의 중고서적 매입 시스템 효율성을 개선하는 프로젝트</p>
-    <p><strong>Project Goals:</strong></p>
+    <p><strong>한 줄 소개:</strong> AI와 Computer Vision 기술을 활용해 중고서적의 상태를 자동으로 평가하고, 알라딘의 중고서적 매입 시스템 효율성을 개선하는 프로젝트</p>
+    <hr>
+    <p><strong>프로젝트 목표</strong></p>
     <ul>
         <li>알라딘 중고서적 매입 시스템 개선을 통한 사용자 경험 극대화 및 자동화된 서적 상태 평가 시스템 도입</li>
     </ul>
-    <p><strong>Key Activities:</strong></p>
+    <hr>
+    <p><strong>핵심 활동</strong></p>
     <ul>
         <li><strong>데이터 수집 및 라벨링</strong></li>
         <ul>
@@ -41,7 +43,8 @@ description: |
             <li>Faster R-CNN 및 Mask R-CNN 적용</li>
         </ul>
     </ul>
-    <p><strong>Main Results:</strong></p>
+    <hr>
+    <p><strong>주요 결과</strong></p>
     <ul>
         <li>Instance Segmentation 모델이 Object Detection 모델보다 높은 mAP 기록</li>
         <li>세분화된 라벨링을 통해 mAP 0.18% 향상</li>
@@ -49,7 +52,8 @@ description: |
         <li>YOLOv11 small 버전이 최적의 성능과 리소스 효율성 제공</li>
         <li>Faster R-CNN 및 Mask R-CNN 적용 시 mAP가 상당히 향상되었으나, 처리 시간 증가로 실시간 서비스 적용 어려움</li>
     </ul>
-    <p><strong>Tech Stack:</strong></p>
+    <hr>
+    <p><strong>기술 스택</strong></p>
     <ul>
         <li>Python</li>
         <li>PyTorch</li>
