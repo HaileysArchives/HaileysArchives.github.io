@@ -11,13 +11,44 @@ project-date: April 2014
 category: Web Development
 description: |
   <div class="project-description">
-    <p><strong>Description:</strong> 후판공정 데이터를 분석하여 품질 개선 및 불량률 저감을 목표로 함</p>
-    <p><strong>My Role</strong></p>
-
+    <p><strong>한 줄 소개:</strong> 후판공정 Scale(산화철) 불량 원인 분석 및 예측을 통한 불량률 감소 및 생산 효율성 향상</p>
+    <p><strong>프로젝트 목표</strong></p>
     <ul>
-      <li>데이터셋을 학습/테스트 세트로 분리 후 모델링 및 파라미터 튜닝 수행</li>
-      <li>의사결정나무와 랜덤포레스트를 활용해 최적의 예측 모델 개발</li>
-      <li>나라별 및 압연 방식에 따른 가설 검정 수행</li>
+        <li>후판공정 Scale(산화철) 불량 원인 분석 및 예측을 통한 불량률 감소 및 생산 효율성 향상</li>
+    </ul>
+    <hr>
+    <p><strong>핵심 내용</strong></p>
+    <ul>
+        <li><strong>데이터 이해 및 전처리</strong></li>
+        <ul>
+            <li>공정 변수에 대한 도메인 지식 습득 및 기술 통계 분석</li>
+            <li>압연 온도 등 명백한 이상치 제거, 발주 규격 범위 내 정상 데이터 유지</li>
+            <li>분석에 불필요한 변수(Plate 번호, 제품 규격, 가열로 추출 온도) 및 특정 범주(티타늄, HSB 미적용) 제거를 통한 분석 효율성 증대</li>
+        </ul>
+        <li><strong>데이터 특성 분석 및 핵심 인자 도출</strong></li>
+        <ul>
+            <li>시계열 분석을 통해 작업조별 불량률 추이 및 특정 일자(2023-01-04) 연속 불량 원인 분석</li>
+            <li>변수 간 상관관계 분석 및 주요 인자 도출 (Spearman Correlation, Heatmap 활용)</li>
+        </ul>
+        <li><strong>모델링 및 결과 분석</strong></li>
+        <ul>
+            <li>t-test 및 다중선형회귀를 통한 영향 인자 검증 및 온도 저하량 공식 검증</li>
+            <li>다양한 머신러닝 모델 비교 후, XGBoost(정확도 95.8%)가 최적 모델로 선정</li>
+        </ul>
+    </ul>
+    <hr>
+    <p><strong>주요 결과</strong></p>
+    <ul>
+        <li>공정 최적화 및 관리 시스템 개선안 제안</li>
+        <ul>
+            <li>오스테나이트 상 범위 내에서 압연 온도 최적점 도출을 통한 가공성 및 Scale량 개선</li>
+            <li>HSB, descailing 공정 횟수 최적화를 위한 실험을 통해 최적 횟수 도출</li>
+        </ul>
+    </ul>
+    <hr>
+    <p><strong>기술 스택</strong></p>
+    <ul>
+        <li>Python, Pandas, Numpy, Machine Learning</li>
     </ul>
 
     <p><strong>GitHub Repository:</strong> <a href="https://github.com/HaileysArchives/portfolio_code/tree/main/C2_%ED%9B%84%ED%8C%90%EA%B3%B5%EC%A0%95" target="_blank">GitHub Link</a></p>

@@ -11,14 +11,42 @@ project-date: March 2024
 category: Data Analytics
 description: |
   <div class="project-description">
-    <p><strong>Description:</strong> 이차전지 제조공정 데이터를 분석하여 불량률 저감 방안을 도출</p>
-    <p><strong>My Role</strong></p>
-
+    <p><strong>한 줄 소개:</strong> 2차 전지 제조 공정 데이터를 분석하여 불량률 감소 및 생산 효율성 향상을 도출</p>
+    <p><strong>프로젝트 목표</strong></p>
     <ul>
-      <li>카이제곱검정을 활용한 가설 검정으로 데이터 간 유의미한 관계 분석</li>
-      <li>이상치를 제거하여 정제된 데이터셋 준비</li>
-      <li>제조 공정을 이해하기 위해 논문을 검토하고 개선안을 확립</li>
-      <li>팀원과의 협업을 통해 데이터 내 숨겨진 관계를 도출</li>
+        <li>2차 전지 제조 공정 최적화를 통해 불량률 감소 및 생산 효율성 향상</li>
+    </ul>
+    <hr>
+    <p><strong>핵심 활동</strong></p>
+    <ul>
+        <li><strong>핵심 문제 해결을 위한 다각적 데이터 분석</strong></li>
+        <ul>
+            <li>2차 전지 Aging 공정의 불량률 문제 해결을 위해 온도, 습도, 시간 등 주요 변수 간의 관계 심층 분석</li>
+            <li>3D Scatter Plot을 통해 열, 연, 단별 불량 발생 패턴을 입체적으로 분석</li>
+            <li>카이제곱검정, ANOVA 검정, t-검정 등 통계적 검정을 통해 데이터 간의 유의미한 관계 검증</li>
+        </ul>
+        <li><strong>머신러닝 기반 불량 예측 모델 개발 및 최적화</strong></li>
+        <ul>
+            <li>Random Forest, XGBoost 활용하여 불량 예측 및 영향 요인 분석</li>
+            <li>하이퍼파라미터 튜닝, 피처 엔지니어링, 앙상블 기법을 적용해 모델의 예측 성능 최적화</li>
+        </ul>
+        <li><strong>데이터 기반 공정 개선 및 효과 검증</strong></li>
+        <ul>
+            <li>설비 온도 관리, 공정 조건 최적화, 모니터링 시스템 구축 등 실질적인 개선 방안 도출</li>
+            <li>Pilot 테스트를 통해 개선 방안의 효과를 입증하며, 불량률을 3.1%에서 1.28%로 감소</li>
+        </ul>
+    </ul>
+    <hr>
+    <p><strong>주요 결과</strong></p>
+    <ul>
+        <li>설비 온도 관리 최적화를 통해 불량률 3.1% → 1.28%로 감소 및 분기당 340억 원의 품질 기회비용 절감</li>
+        <li>최적 공정 조건 도출을 통해 양품 확률 98%까지 향상 및 불량 발생 시 공정 시간 조절을 통해 불량률 추가 감소</li>
+        <li>OCV 검사 결과값 활용 모니터링 시스템 구축 → 불량 발생 사전 예측 및 예방</li>
+    </ul>
+    <hr>
+    <p><strong>기술 스택</strong></p>
+    <ul>
+        <li>Python,Pandas, Numpy, Streamlit, Machine Learning</li>
     </ul>
 
     <p><strong>GitHub Repository:</strong> <a href="https://github.com/HaileysArchives/portfolio_code/tree/main/C2_%EC%9D%B4%EC%B0%A8%EC%A0%84%EC%A7%80" target="_blank">GitHub Link</a></p>

@@ -11,13 +11,40 @@ project-date: March 2024
 category: Data Analytics
 description: |
   <div class="project-description">
-    <p><strong>Description:</strong> 자동차 브랜드, 위치, 연료 유형 등 다양한 설명변수의 파생변수를 생성하여 탐색적 분석 및 통계적 검정을 수행한 후, 최적의 예측 모델 선정</p>
-    <p><strong>My Role</strong></p>
-
+    <p><strong>한 줄 소개:</strong> 인도 중고차 시장 진출을 위한 가격 예측 모델 개발 및 핵심 영향 인자 분석을 통해 경쟁력 확보 및 수익성 향상</p>
+    <p><strong>프로젝트 목표</strong></p>
     <ul>
-      <li>자동차 브랜드를 고가/중가/저가로 재분류하여 중요한 설명변수로 활용</li>
-      <li>데이터를 기반으로 이상치를 탐지 및 제거해 데이터 정제</li>
-      <li>모델링 과정에서 Random Forest, XGBoost 등 다양한 모델을 비교 분석하여 최적의 모델 선정 지원</li>
+        <li>인도 중고차 시장 진출을 위한 가격 예측 모델 개발 및 핵심 영향 인자 분석을 통해 경쟁력 확보 및 수익성 향상</li>
+    </ul>
+    <hr>
+    <p><strong>핵심 활동</strong></p>
+    <ul>
+        <li><strong>데이터 분석 및 전처리</strong></li>
+        <ul>
+            <li>기술적 통계 분석으로 데이터 특성 파악 및 목표 변수(Price)와 주요 변수 간 관계 분석</li>
+            <li>범주형 변수 그룹화(Brand, Location, Fuel_Type, Owner_Type)와 One-Hot-Encoding 적용</li>
+        </ul>
+        <li><strong>통계적 분석 및 가설 검정</strong></li>
+        <ul>
+            <li>정규성 검정 및 다중공선성 검정 (VIF 10 이하로 다중공선성 없음 확인)</li>
+            <li>상관관계 분석을 통해 가격에 영향을 미치는 주요 인자(Power, Engine 등) 파악</li>
+        </ul>
+        <li><strong>모델링 및 성능 비교</strong></li>
+        <ul>
+            <li>Decision Tree, Random Forest, XGBoost 등 머신러닝 모델 학습 및 성능 비교 분석</li>
+            <li>모델별 변수 중요도 분석으로 핵심 인자(Power, Used_Year, etc) 도출</li>
+        </ul>
+    </ul>
+    <hr>
+    <p><strong>주요 결과</strong></p>
+    <ul>
+        <li>XGBoost 모델을 통해 92.4%의 정확도로 중고차 가격 예측</li>
+        <li>도출된 핵심 인자를 바탕으로 인도 중고차 시장 공략 전략 수립</li>
+    </ul>
+    <hr>
+    <p><strong>기술 스택</strong></p>
+    <ul>
+        <li>Python, Pandas, Numpy, Machine Learning</li>
     </ul>
 
     <p><strong>GitHub Repository:</strong> <a href="https://github.com/HaileysArchives/portfolio_code/tree/main/C2_%EC%9D%B4%EC%B0%A8%EC%A0%84%EC%A7%80" target="_blank">GitHub Link</a></p>
