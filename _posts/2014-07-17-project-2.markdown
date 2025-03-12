@@ -12,7 +12,6 @@ category: Web Development
 description: |
   <div class="project-description">
     <p><strong>한 줄 소개:</strong> AI와 Computer Vision 기술을 활용해 중고서적의 상태를 자동으로 평가하고, 알라딘의 중고서적 매입 시스템 효율성을 개선하는 프로젝트</p>
-    <hr>
     <p><strong>프로젝트 목표</strong></p>
     <ul>
         <li>알라딘 중고서적 매입 시스템 개선을 통한 사용자 경험 극대화 및 자동화된 서적 상태 평가 시스템 도입</li>
@@ -55,17 +54,8 @@ description: |
     <hr>
     <p><strong>기술 스택</strong></p>
     <ul>
-        <li>Python</li>
-        <li>PyTorch</li>
-        <li>Roboflow</li>
-        <li>YOLOv11</li>
-        <li>Faster R-CNN</li>
-        <li>Mask R-CNN</li>
-        <li>Google Gemini API</li>
-        <li>Streamlit</li>
+        <li>Python, PyTorch, Roboflow, YOLOv11, Faster R-CNN, Mask R-CNN, Google Gemini API, Streamlit</li>
     </ul>
-  </div>
-
 
     <p><strong>GitHub Repository:</strong> <a href="https://github.com/HaileysArchives/ML_Project" target="_blank">GitHub Link</a></p>
   </div>

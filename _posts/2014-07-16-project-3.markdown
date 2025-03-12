@@ -11,26 +11,38 @@ project-date: April 2014
 category: Web Development
 description: |
   <div class="project-description">
-    <p><strong>Description:</strong> 기존 카트를 기반으로 고객의 매출을 극대화할 수 있는 쇼핑카트 시스템을 구현</p>
-    <p><strong>My Role</strong></p>
-
+    <p><strong>한 줄 소개:</strong> 기존 카트를 활용하면서 고객의 매출을 극대화할 수 있는 쇼핑카트 시스템 구현</p>
+    <p><strong>프로젝트 목표</strong></p>
     <ul>
-      <li><strong>Google Cloud Vision OCR API 설정 및 인증</strong></li>
-      <ul>
-        <li>손글씨로 작성된 쇼핑 리스트를 모바일 카메라로 촬영하며, Google Cloud Vision OCR API가 텍스트를 읽고 해석</li>
-        <li>인식된 상품 정보는 마트 내 쇼핑카트 시스템과 연동되어 쇼핑 효율성을 향상</li>
-      </ul>
-      <li><strong>Android 애플리케이션 개발</strong></li>
-      <ul>
-        <li>Android Studio를 활용해 제품 선택 시 자동으로 위시리스트에 추가하는 기능 구현</li>
-        <li>Java 언어를 사용해 손글씨로 작성된 리스트를 디지털화하고, 사용자 편의를 위한 위시리스트 추가 및 마트 시스템과의 연동 기능 추가</li>
-      </ul>
-      <li><strong>OCR 기반 위치 추천 알고리즘 작성</strong></li>
-      <ul>
-        <li>OCR을 활용해 쇼핑카트의 위치 기반 추천 알고리즘 작성</li>
-        <li>Python과 Tesseract를 사용하여 텍스트 추출과 바닥의 구역 정보를 인식</li>
-        <li>네이버 CLOVA API와 Google Vision API 비교 후 최적의 API 선정</li>
-      </ul>
+        <li>기존 카트를 활용하면서 고객의 매출을 극대화할 수 있는 쇼핑카트 시스템 구현</li>
+    </ul>
+    <hr>
+    <p><strong>핵심 활동</strong></p>
+    <ul>
+        <li><strong>AI 쇼핑 도우미 '포리' 개발</strong></li>
+        <ul>
+            <li>GPT-4 기반 챗봇과 STT/TTS 기술을 활용하여 음성으로 상품 검색, 추천 및 문의 응대 기능 구현</li>
+        </ul>
+        <li><strong>제품 자동 인식 및 장바구니 업데이트</strong></li>
+        <ul>
+            <li>YOLOv7 모델을 적용해 실시간 상품 탐지 및 식별</li>
+            <li>무게 센서를 활용해 카트 내 상품 변화를 감지하고 장바구니 자동 업데이트 시스템 구축</li>
+        </ul>
+        <li><strong>고객 맞춤형 위치 추천 시스템</strong></li>
+        <ul>
+            <li>Google Cloud Vision OCR API로 매장 내 카트 위치를 분석</li>
+            <li>고객 구매 패턴을 기반으로 개인화된 상품 추천 알고리즘 개발</li>
+        </ul>
+        <li><strong>고객 접근성 향상 및 다중 사용자 환경 최적화</strong></li>
+        <ul>
+            <li>Nvidia Triton Server를 활용해 마트 서버와의 다중 접속 환경을 안정적으로 구축</li>
+            <li>Android 앱 및 웹 인터페이스를 통해 장바구니 및 위시리스트 관리 기능 제공</li>
+        </ul>
+    </ul>
+    <hr>
+    <p><strong>기술 스택</strong></p>
+    <ul>
+        <li>Python, YOLOv7, Google Cloud Vision OCR API, Nvidia Triton Server, Android Studio, Java, Streamlit, Arduino IDE, Raspberry Pi</li>
     </ul>
 
     <p><strong>GitHub Repository:</strong> <a href="https://github.com/HaileysArchives/portfolio_code/tree/main/C2_%EC%9D%B4%EC%B0%A8%EC%A0%84%EC%A7%80" target="_blank">GitHub Link</a></p>
