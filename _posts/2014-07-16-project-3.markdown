@@ -45,7 +45,7 @@ description: |
         <li>Python, YOLOv7, Google Cloud Vision OCR API, Nvidia Triton Server, Android Studio, Java, Streamlit, Arduino IDE, Raspberry Pi</li>
     </ul>
 
-    <p><strong>GitHub Repository:</strong> <a href="https://github.com/HaileysArchives/portfolio_code/tree/main/C2_%EC%9D%B4%EC%B0%A8%EC%A0%84%EC%A7%80" target="_blank">GitHub Link</a></p>
+    <p><strong>GitHub Repository:</strong> <a href="https://github.com/HaileysArchives/pory_market" target="_blank">GitHub Link</a></p>
   </div>
 
 ---
